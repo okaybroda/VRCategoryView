@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="expanded" type="id" />
+    <item name="rowColumnIndexPair" type="id" />
+    <item name="subCategories" type="id" />
+    <item name="darkenView" type="id" />
+</resources>
