@@ -122,7 +122,7 @@ public class VRCategoryView extends FrameLayout {
             textView.setShadowLayer(25, 0, 0, Color.BLACK);
             textView.setGravity(Gravity.CENTER);
             textView.setTextColor(Color.WHITE);
-            textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 24);
+            textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
             itemView.addView(textView, new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                     ViewGroup.LayoutParams.MATCH_PARENT));
 
@@ -266,7 +266,7 @@ public class VRCategoryView extends FrameLayout {
         int width = right - left;
 
         if (width != oldWidth) {
-            columnSize = (int) Math.floor(width / dpToPx(150));
+            columnSize = (int) Math.floor(width / dpToPx(190));
 
             // to store xy positions for all items
             xyMatrix = new int[(int) Math.ceil((double) totalCount / (double) columnSize)]
@@ -429,7 +429,6 @@ public class VRCategoryView extends FrameLayout {
         @Override
         public void onAnimationUpdate(ValueAnimator valueAnimator) {
             float currentFloat = (float) valueAnimator.getAnimatedValue();
-            long timestamp = valueAnimator.getCurrentPlayTime();
 
             float darkAlpha = isOpen ? currentFloat * 0.7f : (1 - currentFloat) * 0.7f;
             darkenView.setAlpha(darkAlpha);

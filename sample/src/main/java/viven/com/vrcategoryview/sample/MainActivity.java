@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final List<CategoryItem> categoryItemList = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 20; i++) {
             CategoryItem categoryItem = new CategoryItem() {
                 @Override
                 public String getName() {
