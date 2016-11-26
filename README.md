@@ -25,7 +25,7 @@ dependencies {
 ## Usage
 Include the layout in your XML:
 ```xml
-<viven.com.vrcategoryview.lib.VRSideCategoryView
+<viven.com.vrcategoryview.lib.VRCategoryView
         android:id="@+id/vrCategoryView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
