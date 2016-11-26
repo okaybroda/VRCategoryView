@@ -19,7 +19,7 @@ allprojects {
 Then add VRCategoryView
 ```gradle
 dependencies {
-  compile 'com.viven.vrcategoryview:1.0.0'
+  compile 'com.github.okaybroda:VRCategoryView:1.0.0'
 }
 ```
 ## Usage
